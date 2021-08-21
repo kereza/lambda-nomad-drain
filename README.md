@@ -1,7 +1,8 @@
-# lambda-nomad-drain
+# Python code  designed for HashiCorp NOMAD and AWS Auto Scaling Group Events to tirgger autmatic draining of containers.
 
-Python code  designed for HashiCorp NOMAD and AWS Auto Scaling Group Events to tirgger autmatic draining of containers.
 It works in the following way:
+
+
 
 1. Secrets like the NOMAD token are stored in the AWS SSM Secret Manager
 2. When Auto Scaling Group event to terminate an instance is triggered - the even ID with the instance metadata is sent to Lambda
